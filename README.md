@@ -25,6 +25,7 @@
     - [4.3. Linking Multi-Execution Processes Using Correlation Id](#43-linking-multi-execution-processes-using-correlation-id)
   - [5. Logging from Inside of a Transaction](#5-logging-from-inside-of-a-transaction)
   - [6. Framework Performance Overhead](#6-framework-performance-overhead)
+- [License](#license)
 
 ---
 
@@ -571,3 +572,29 @@ Output:
 ### 6. Framework Performance Overhead
 
 From testing done on the development environment, the time depends directly on the insertion of records into the logging framework tables. In the development environment, testing was done by continuously inserting information into the logging tables **200,000 times**. Based on the results, it takes on average **1 millisecond** to insert a record.
+
+---
+
+## License
+
+MIT License
+
+Copyright (c) 2020 Sergiy Stupnytskyy
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
